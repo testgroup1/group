@@ -14,7 +14,7 @@ public class TES {
 		String tempStr = "";
 		for (int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);
-			if (c >= 33 && c <= 126) {// ×ÖÄ¸ºÍ·ûºÅÔ­Ñù±£Áô
+			if (c >= 33 && c <= 125) {// ×ÖÄ¸ºÍ·ûºÅÔ­Ñù±£Áô
 				tempStr += String.valueOf(c);
 			} else {// ÀÛ¼ÓÆ´ÒôÉùÄ¸
 				tempStr += getPYChar(String.valueOf(c));
